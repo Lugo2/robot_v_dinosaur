@@ -1,4 +1,3 @@
-from robot import Robot
 class Dinosaur:
     def __init__(self, name, attack_power):
         self.name = name
@@ -6,5 +5,5 @@ class Dinosaur:
         self.health = 100
 
     def attack(self, robot):
-        pass
-
+        robo_health = robot
+        robo_health -= self.attack_power
